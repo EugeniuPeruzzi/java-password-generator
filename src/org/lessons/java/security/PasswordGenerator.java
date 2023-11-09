@@ -33,7 +33,11 @@ public class PasswordGenerator {
 		// birth date sum
 		int sumDates = userBirthDate + userBirthMonth + userBirthYear;
 		
+		//final output
 		System.out.println("La tua password sara: " + userName+"-"+userSurname+"-"+userColor+"-"+sumDates);
+		
+		//close scanner
+		in.close();
 		
 	}
 
